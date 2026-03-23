@@ -1,0 +1,64 @@
+/* Center entire page */
+.update-wrapper {
+  height: 90vh;
+  display: flex;
+  justify-content: center;   /* horizontal center */
+  align-items: center;       /* vertical center */
+  background-color: #f2f2f2;
+}
+
+/* Main box */
+.update-form {
+  background: white;
+  padding: 40px 60px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Title section */
+.update-title {
+  position: absolute;
+  top: 120px; /* Adjust if needed */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+/* Form rows */
+.form-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row input {
+  width: 180px;
+  height: 28px;
+  padding: 5px;
+}
+
+/* Error */
+.error-text {
+  color: red;
+  font-size: 12px;
+}
+
+/* Buttons */
+.button-box {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button-box button {
+  width: 180px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background-color: #e0e0e0;
+}

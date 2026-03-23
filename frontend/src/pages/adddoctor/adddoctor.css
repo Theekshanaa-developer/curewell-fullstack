@@ -1,0 +1,51 @@
+.add-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-box {
+  width: 350px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.form-box h2 {
+    color: black;
+    text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-group button,
+
+.button-group {
+  background: gray;
+  color: white;
+  padding: 6px 18px;
+  width: auto;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+ 
+}
+.success-msg {
+  color: red;
+  margin-top: 15px;
+}

@@ -1,0 +1,77 @@
+.update-container {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start; 
+  align-items: flex-start;     
+  padding: 40px;               
+  background-color: #f9f9f9;   
+}
+
+.form-box {
+  width: 400px;           
+  padding: 20px 30px;     
+  border: none;           
+  border-radius: 0;       
+  background-color: transparent; 
+}
+
+.form-box h2 {
+  text-align: left;       
+  margin-bottom: 20px;
+  color: red
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;  
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;          
+  box-sizing: border-box;
+}
+
+.update-btn {
+  width: 120px;
+  padding: 6px;
+  align-self: flex-start; 
+  border: none;
+  background-color: gray;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.update-btn:hover {
+  background-color: #1a252f;
+}
+
+.form-actions {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+a.cancel-link {
+  text-decoration: none;
+  color: #2c3e50;
+  align-self: center;
+}
+
+a.cancel-link:hover {
+  color: #1a252f;
+}

@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+}
+
+/* Left logo */
+.logo {
+  font-size: 28px;
+  margin: 0;
+}
+
+/* Center links */
+.nav-links {
+  flex: 2;                 
+  display: flex;
+  justify-content: center; 
+  gap: 225px;              
+}
+
+/* Links style */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  
+}
