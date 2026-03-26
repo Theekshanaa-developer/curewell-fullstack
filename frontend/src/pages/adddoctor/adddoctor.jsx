@@ -12,7 +12,7 @@ function AddDoctor() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // validation
+    
     if (name.trim() === "") {
       setMessage("Please enter a doctor name");
       return;
@@ -23,7 +23,7 @@ function AddDoctor() {
       return;
     }
 
-    // send BOTH fields
+    
     const newDoctor = {
       name: name,
       specializationCode: specializationCode,
@@ -60,7 +60,7 @@ function AddDoctor() {
             />
           </div>
 
-          {/* 🔥 NEW FIELD */}
+          
           <div className="form-group">
             <label>Specialization Code</label>
             <input
